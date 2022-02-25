@@ -5,7 +5,6 @@ tim = Turtle()
 screen = Screen()
 screen.colormode(255)
 screen.bgcolor("black")
-heading = [0, 90, 180, 270]
 
 def rand_color():
     for rando in range(0,3):
@@ -14,10 +13,6 @@ def rand_color():
         b = random.randint(0, 255)
         rgb = (r, g, b)
     return rgb
-
-def rand_heading():
-    nesw = random.choice(heading)
-    return nesw
 
 for x in range(120):
 
